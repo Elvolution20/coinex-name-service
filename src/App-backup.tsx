@@ -399,7 +399,7 @@ const App = () => {
               </h2>
               
               <p>
-                Mint your .xdc domain as an NFT asset which binds to your address 
+                Mint your .cens domain as an NFT asset which binds to your address 
                 and set records for your website, email, 
                 twitter tag and set a description and avatar.
 

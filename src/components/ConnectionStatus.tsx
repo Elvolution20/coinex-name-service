@@ -1,11 +1,10 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 import { useWeb3React } from '@web3-react/core';
-import polygonLogo from '../assets/polygonlogo.png';
-import hpbLogo from '../img/hpblogo.png';
-import { networks } from '../utils/networks';
+import hpbLogo from '../img/logo.png';
+
 
 export default function ConnectionStatus() {
-  const { account, chainId } = useWeb3React();
+  const { account } = useWeb3React();
 
   return (
     <div className="flex-item justify-end">

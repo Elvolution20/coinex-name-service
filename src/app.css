@@ -259,6 +259,8 @@ button {
 }
 .button-container{
   margin-top:20px;
+
+  
 }
 .mint-button:hover {
   background-color: transparent;
@@ -418,6 +420,14 @@ input:focus {
 
 .underlined:hover {
   cursor: pointer;
+}
+
+.registration {
+  color: #f8f8ff;
+  font-size: 20px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: 1px;
 }
 
 /* KeyFrames */

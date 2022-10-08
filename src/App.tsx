@@ -369,6 +369,12 @@ const App = () => {
             </button>
           ) : null}
         </div>
+        <h3 className='registration'>
+            Registration costs are set at the following prices: <br />
+            5+ character .cens names: 200 in CET per year. <br />
+            4 character .cens names: 2000  in CET per year. <br />
+            3 character .cens names 20000  in CET per year. <br />
+        </h3>
       </div>
     );
   };
@@ -401,7 +407,7 @@ const App = () => {
               </h2>
               
               <p>
-                Mint your .xdc domain as an NFT asset which binds to your address 
+                Mint your .cens domain as an NFT asset which binds to your address 
                 and set records for your website, email, 
                 twitter tag and set a description and avatar.
 
