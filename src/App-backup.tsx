@@ -179,8 +179,8 @@ const App = () => {
       return;
     }
     // Calculate price based on length of domain (change this to match your contract)
-    // 3 chars = 10000 CET, 4 chars = 1000 CET, 5 or more = 100 CET
-    const price = domain.length === 3 ? '10000' : domain.length === 4 ? '1000' : '100';
+    // 3 chars = 20000 CET, 4 chars = 2000 CET, 5 or more = 200 CET
+    const price = domain.length === 3 ? '20000' : domain.length === 4 ? '2000' : '200';
     console.log('Minting domain', domain, 'with price', price);
     try {
       if (active) {
