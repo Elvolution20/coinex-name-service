@@ -241,13 +241,13 @@ const App = () => {
       .catch(() => {
         switch (_domain.length) {
           case 3:
-            setMintPrice(10000);
+            setMintPrice(20000);
             break;
           case 4:
-            setMintPrice(1000);
+            setMintPrice(2000);
             break;
           default:
-            setMintPrice(100);
+            setMintPrice(200);
             break;
         }
       });
@@ -369,6 +369,12 @@ const App = () => {
             </button>
           ) : null}
         </div>
+        <p className='registration'>
+            Registration costs are set at the following prices: <br />
+            - 5+ character .cens names: 200 in CET per year. <br />
+            - 4 character .cens names: 2000  in CET per year. <br />
+            - 3 character .cens names 20000  in CET per year. <br />
+        </p>
       </div>
     );
   };
@@ -379,7 +385,9 @@ const App = () => {
         <div className="header-container">
           <header className="flex">
             <div className="flex-item">
-              <p className="title">CoinEx Name Service</p>
+        
+                <p className="title">CoinEx Name Service</p>
+              
             </div>
               <ConnectionStatus />
           </header>

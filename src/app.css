@@ -424,7 +424,8 @@ input:focus {
 
 .registration {
   color: #f8f8ff;
-  font-size: 20px;
+  margin: 20px;
+  font-size: 17px;
   text-align: center;
   white-space: nowrap;
   letter-spacing: 1px;
