@@ -5,7 +5,7 @@ export type MintedProps = {
   onEdit: (record: any) => void;
 };
 
-const CONTRACT_ADDRESS = '0x5c7D719744D71Da57FDCC29AF7E06BA656274bd0';
+const CONTRACT_ADDRESS = '0x67769c0aD1e9Cc4d337a19913e95ae7bDb6E87B7';
 const tld = '.cens';
 
 export default function RecentlyMinted({ mints, onEdit }: MintedProps) {
@@ -21,7 +21,7 @@ export default function RecentlyMinted({ mints, onEdit }: MintedProps) {
             return (
               <div className="mint-item" key={index}>
                 <div className="mint-row">
-                  <a
+                 <a
                     className="link"
                     href={`https://oasis-nft.dog/collection/${CONTRACT_ADDRESS}/${mint.id}`}
                     target="_blank"
@@ -31,7 +31,7 @@ export default function RecentlyMinted({ mints, onEdit }: MintedProps) {
                       {mint.name}
                       {tld}
                     </p>
-                  </a>
+                  </a> 
                   <button className="edit-button" onClick={() => onEdit(mint.name)}>
                     <img
                       className="edit-icon"
