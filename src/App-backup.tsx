@@ -22,7 +22,7 @@ const MetaMask = new InjectedConnector({});
 const tld = 'cens';
 
 // Constants
-const CONTRACT_ADDRESS = '0x4111757209e475B76F9Ee3B5112DDFA9F4208cCd';
+const CONTRACT_ADDRESS = '0x67769c0aD1e9Cc4d337a19913e95ae7bDb6E87B7';
 
 export type Record = {
   avatar: string;
