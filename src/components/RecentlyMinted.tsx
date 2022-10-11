@@ -23,7 +23,7 @@ export default function RecentlyMinted({ mints, onEdit }: MintedProps) {
                 <div className="mint-row">
                  <a
                     className="link"
-                    href={`https://oasis-nft.dog/collection/${CONTRACT_ADDRESS}/${mint.id}`}
+                    href={`https://testnet.coinex.net/address/${CONTRACT_ADDRESS}/${mint.id}`}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
